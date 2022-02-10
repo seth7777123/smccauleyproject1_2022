@@ -7,13 +7,16 @@
 
 name: Java CI with Gradle
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+
+on: [push, pull_request]
 
 jobs:
+  validation:
+    name: "Validation"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gradle/wrapper-validation-action@v1
   build:
 
     runs-on: windows-latest
@@ -29,3 +32,5 @@ jobs:
       uses: gradle/gradle-build-action@937999e9cc2425eddc7fd62d1053baf041147db7
       with:
         arguments: build
+        name: "Validate Gradle Wrapper"
+
