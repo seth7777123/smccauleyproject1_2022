@@ -1,6 +1,7 @@
 Seth Mccauley 
 i dont think theres any run or install youll need to do besides just putitng my code into intellij and running it 
 my project gets the top 250 tv shows at whatever time i hit run and even if imbd is updated my list will also print the newest updated version
-whats missing is alot probably more than anyone else i havent got the build and testing to work for some reason, i didnt do the user rating because i just couldnt figure out
-how to go about writing out the functions or even where to find the functions to go about them i didnt give this sprint enough time , i realizing now that im going to need 
-to start as soon as their given out and then ask questions that same day, feel as if ill have a couple questions a day then ill be able to get them done.
+whats missing is a good portion i couldnt figure out how to get the workflow to work correctly on java and i didnt want to due python cause i didnt have best experience
+with it in the past. im going to due the next sprint 3 in python. the java one is tricky but couldve been done in so many different way is what kept messing me up
+i tried so many different ways that i eventually ended up confusing myself. going to start sprint 3 now although i know its going to be rough since i didnt due the first 2
+in python but will use your solution if your going to due it like that again so we can start sprint 3
